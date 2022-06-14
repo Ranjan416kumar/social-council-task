@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/assests/css/style.css">
+  </head>
+  <body>
+    <div class="regform">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="main">
+      <form class="col-md-6" action="/submitted" method="POST">
+      <h2 class="name">Name</h2>
+      <input class="firstname" type="rext" name="first_name"><br>
+      <label class="firstlabel">first name</label>
+      <input class="lastname" type="text" name="last_name">
+      <label class="lastlabel">last name</label>
+
+      <h2 class="name">Institute</h2>
+      <input class="collegename" type="text" name="collegename">
+
+      <h2 class="name">Roll no.</h2>
+      <input class="roll-no" type="text" name="roll_no">
+
+      <h2 class="name">Department</h2>
+      <select class="option" name="subject">
+        <option disabled="disabled" selected="selected">
+          --Choose option
+        </option>
+        <option>
+          CSE
+        </option>
+        <option>
+          EEE
+        </option>
+        <option>
+          ECE
+        </option>
+        <option>
+          MECHANICAL
+        </option>
+        <option>
+          CIVIL
+        </option>
+        <option>
+          META
+        </option>
+        <option>
+          ICE
+        </option>
+        <option>
+          PRODUCTION
+        </option>
+        <OPTION>
+          CHEMICAL
+        </OPTION>
+        <option>
+          ARCHI
+        </option>
+      </select>
+
+      <h2 class="name">Phone no.</h2>
+      <input class="number" type="text" name="phone">
+      <label class="phone-number">Phone Number</label>
+
+
+      <h2 class="name">Email</h2>
+      <input class="email" type="text" name="email">
+
+      <h2 class="name">Your message to us:-</h2>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea>
+      <button type="submit">Submit</button>
+
+       </form>
+    </div>
+  </body>
+</html>

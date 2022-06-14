@@ -1,0 +1,19 @@
+body {
+  background-image: url(../img/I1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+  color: white;
+}
+
+p {
+  color: yellow;
+}
+div.a{
+  text-align: center;
+  margin-top: 170px;
+}
